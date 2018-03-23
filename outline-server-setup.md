@@ -89,13 +89,13 @@ https://play.google.com/store/apps/details?id=org.outline.android.client
 
 Download Outline for Android from the CH Play and repeat the steps for Windows above.
 
-## Setting Outline to work with [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) (Advanced)
+## Setting Outline to work with Proxy SwitchyOmega (Advanced)
 
 By default, Outline uses different ports everytime you reconnect, then it's pretty hard to use Proxy SwitchyOmega. But if you really want to, so here is the way:
 
 **HEADS UP: YOU WILL NEED TO CHANGE THE PORT MANUALLY EVERYTIME YOU RECONNECT OUTLINE**
 
-1. Firstly, you need to install the Proxy SwitchyOmega extension for Chrome or Proxy SwitchyOmega plugin for Firefox;
+1. Firstly, you need to install the Proxy SwitchyOmega extension [for Chrome](https://chrome.google.com/webstore/detail/padekgcemlokbadohgkifijomclgjgif) or Proxy SwitchyOmega plugin [for Firefox](https://addons.mozilla.org/en-US/firefox/addon/switchyomega/);
 2. Go to Proxy SwitchyOmega Options (Normally, right click on the Proxy SwitchyOmega icon in your browser > Options);
 3. Choose **New Profile**, give it a name (Here I use Outline VPN), select **Proxy Profile** and click Create.
 4. On the next screen, at Proxy servers, select HTTP from the scroll down menu, fill in 127.0.0.1 in the Server field.
