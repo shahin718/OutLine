@@ -99,7 +99,7 @@ By default, Outline uses different ports everytime you reconnect, then it's pret
 2. Go to Proxy SwitchyOmega Options (Normally, right click on the Proxy SwitchyOmega icon in your browser > Options);
 3. Choose **New Profile**, give it a name (Here I use Outline VPN), select **Proxy Profile** and click Create.
 4. On the next screen, at Proxy servers, select HTTP from the scroll down menu, fill in 127.0.0.1 in the Server field.
-5. Open Internet Options in your computer (Open Network and Sharing Center > Internet Options), then select Connections > LAN Settings, look at Proxy Server, you will find the port you need.
+5. Open **Internet Options** in your computer (**Open Network and Sharing Center > Internet Options**), then select **Connections > LAN Settings**, look at **Proxy Server**, you will find the port you need.
 6. Back to Proxy SwitchyOmega Options, fill that port to the Port field, click Apply changes.
 7. Choose **New Profile**, give it a name (Here I use Auto - Outline), select **Switch Profile** and click Create.
 8. Click Add a rule lists, from Rule list rules, select Outline VPN.
