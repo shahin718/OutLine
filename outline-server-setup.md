@@ -91,7 +91,7 @@ Download Outline for Android from the CH Play and repeat the steps for Windows a
 
 ## Setting Outline to work with [Proxy SwitchyOmega](https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif) (Advanced)
 
-By default, Outline uses different ports everytime reconnect, so it's pretty hard to use Proxy SwitchyOmega. But if you really want to, so here is the way:
+By default, Outline uses different ports everytime you reconnect, then it's pretty hard to use Proxy SwitchyOmega. But if you really want to, so here is the way:
 
 **HEADS UP: YOU WILL NEED TO CHANGE THE PORT MANUALLY EVERYTIME YOU RECONNECT OUTLINE**
 
