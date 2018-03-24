@@ -1,11 +1,34 @@
 How to setup an OutlineVPN Server on Ubuntu 16.04
 
+This guide will show you how to install Outline Server on an Ubuntu server 16.04, use Outline Manager for Windows and connect to your Outline Server on Windows and Anroid.
+
+# Install Outline Manager for Windows
+
+For now, Outline Manager only support Windows and Linux. I'll show you how to do on Windows.
+
+Use this link to download Outline Manager for Windows
+~~~~
+https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/Outline-Manager.exe
+~~~~
+
+# Install Outline Server
+
 ## Requirement
 * An Ubuntu Server 16.04
 * Non-root user with sudo
 * Docker installed
 
-## Install Docker
+Mainly, there are two ways to install Outline Server on an Ubuntu server.
+
+## Simple way
+
+Install Outline Manager on your computer, login to Digital Ocean using your own account and follow the instruction on the screen.
+
+## Die Hard
+
+If you wanna use your own server or just don't like DO, this is for you.
+
+### Install Docker
 
 You will need to install Docker on your server first. If not, run the following command:
 
@@ -13,7 +36,7 @@ You will need to install Docker on your server first. If not, run the following 
 sudo curl -sS https://get.docker.com/ | sh
 ~~~~
 
-## Install Outline
+### Install Outline
 
 All you need to do is run this command:
 
@@ -33,28 +56,22 @@ Please copy the following configuration to your Outline Manager:
 
 Just leave it there. You will need these information in the next step. That's enough for the server side. Now, we will move to the client side.
 
-## Get the access key
+### Get the access key
 
-For now, Outline Manager only support Windows and Linux. I'll show you how to do on Windows.
-
-Use this link to download Outline Manager for Windows
-~~~~
-https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/Outline-Manager.exe
-~~~~
-
-1. Install Outline Manager for Windows to your computer. Open it. Scrool down and click on **Get started** button.
-2. Copy everything within (include) the {}  of the key on your server at the last step and paste it the field at the next screen.
-3. Click **Done**
-4. Click **Add key**, and you will get something like "Key 1", click **Share**, it will show you the link to get the access key. Copy that link only if you just want to use on your own computer, or click **Copy to Clipboard** and send it to your friends. (HEADS UP: EVERYONE WHO HAS THE LINK WILL BE ABLE TO CONNECT TO YOUR SERVER)
+1. Open Outline Manager. Scrool down to the Advanced Mode and click on **Get started** button;
+2. Copy everything within (include) the {}  of the key on your server at the last step and paste it the field at the next screen;
+3. Click **Done**;
+4. There is a key automatically created for you (named 'My Access Key'). If you click 'Get Connected' next to it, you will be walked through how to download the appropriate client for your platform without needing to open up a new page. (Thanks to [r/sandrigo](https://www.reddit.com/user/sandrigo);
+5. If you want to get a new key to share with your friends, Click **Add key**, and you will get something like "Key 1", click **Share**, it will show you the link to get the access key, click **Copy to Clipboard** and send it to your friends. (HEADS UP: EVERYONE WHO HAS THE LINK WILL BE ABLE TO CONNECT TO YOUR SERVER)
 
 ~~~~
 https://s3.amazonaws.com/outline-vpn/index.html#/invite/ss//XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 ~~~~
 
-5. Paste it to  your browser
+5. Paste it to browser
 6. Click on **Connect this device**, it will show you the key, click **Copy** to get the key.
 
-## Connect to Outline
+### Connect to Outline
 
 For now, Outline only support Android, Windows and Chrome OS. Outline for iOS and MacOS is coming soon.
 
@@ -85,11 +102,12 @@ Android 5.0+
 
 ~~~~
 https://play.google.com/store/apps/details?id=org.outline.android.client
+https://github.com/Jigsaw-Code/outline-client/releases
 ~~~~
 
-Download Outline for Android from the CH Play and repeat the steps for Windows above.
+Download Outline for Android from the CH Play or Github (You should choose the version with `Latest release` tag) and repeat the steps for Windows above.
 
-## Setting Outline to work with Proxy SwitchyOmega (Advanced)
+# Setting Outline to work with Proxy SwitchyOmega (Advanced)
 
 By default, Outline uses different ports everytime you reconnect, then it's pretty hard to use Proxy SwitchyOmega. But if you really want to, so here is the way:
 
@@ -106,16 +124,16 @@ By default, Outline uses different ports everytime you reconnect, then it's pret
 9. At Rule List Config section, select Auto Proxy, and paste the link below to Rule List URL field, click Apply changes, and then click Download Profile Now.
 10. Now, click on Proxy SwitchyOmega icon in your browser, choose Auto - Outline. By this way, you will save lots of traffic on your VPN server, and get the faster speed when connect to sites you don't want to or don't need to connect via a VPN.
 
-## Conclusion
+# Conclusion
 
-**Pros**
+## Pros
 - Easy to setup
 - Simple and friendly UI client
 - Secure
 - From Google, haha.
 
-**Cons**
+## Cons
 - Only supports Windows and Android for now
 
-## One more thing
+# One more thing
 - This guide is free for use. But if you want to get me some coffee, just send it to my Paypal: https://paypal.me/pmtuan. Much appreciate!
