@@ -14,8 +14,8 @@ https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/Ou
 # Install Outline Server
 
 ## Requirement
-* An Ubuntu Server 16.04
-* Non-root user with sudo
+* An Ubuntu 16.04 Server
+* Sudo non-root user
 * Docker installed
 
 Mainly, there are two ways to install Outline Server on an Ubuntu Server.
