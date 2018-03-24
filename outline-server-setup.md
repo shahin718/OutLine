@@ -61,7 +61,7 @@ Just leave it there. You will need these information in the next step. That's en
 1. Open Outline Manager. Scrool down to the Advanced Mode and click on **Get started** button;
 2. Copy everything within (include) the {}  of the key on your server at the last step and paste it the field at the next screen;
 3. Click **Done**;
-4. There is a key automatically created for you (named 'My Access Key'). If you click 'Get Connected' next to it, you will be walked through how to download the appropriate client for your platform without needing to open up a new page. (Thanks to [r/sandrigo](https://www.reddit.com/user/sandrigo);
+4. There is a key automatically created for you (named 'My Access Key'). If you click 'Get Connected' next to it, you will be walked through how to download the appropriate client for your platform without needing to open up a new page. (Thanks to [r/sandrigo](https://www.reddit.com/user/sandrigo));
 5. If you want to get a new key to share with your friends, Click **Add key**, and you will get something like "Key 1", click **Share**, it will show you the link to get the access key, click **Copy to Clipboard** and send it to your friends. (HEADS UP: EVERYONE WHO HAS THE LINK WILL BE ABLE TO CONNECT TO YOUR SERVER)
 
 ~~~~
