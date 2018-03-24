@@ -1,6 +1,6 @@
-How to setup an OutlineVPN Server on Ubuntu 16.04
+How to setup an Outline VPN Server on Ubuntu 16.04 Server
 
-This guide will show you how to install Outline Server on an Ubuntu server 16.04, use Outline Manager for Windows and connect to your Outline Server on Windows and Anroid.
+This guide will show you how to install Outline Server on an Ubuntu 16.04 Server, use Outline Manager for Windows and connect to your Outline Server on Windows and Anroid.
 
 # Install Outline Manager for Windows
 
@@ -18,7 +18,7 @@ https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/Ou
 * Non-root user with sudo
 * Docker installed
 
-Mainly, there are two ways to install Outline Server on an Ubuntu server.
+Mainly, there are two ways to install Outline Server on an Ubuntu Server.
 
 ## Simple way
 
