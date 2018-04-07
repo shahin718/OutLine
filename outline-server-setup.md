@@ -2,13 +2,18 @@ How to setup an Outline VPN Server on Ubuntu 16.04 Server
 
 This guide will show you how to install Outline Server on an Ubuntu 16.04 Server, use Outline Manager for Windows and connect to your Outline Server on Windows and Anroid.
 
-# Install Outline Manager for Windows
+# Install Outline Manager
 
-For now, Outline Manager only support Windows and Linux. I'll show you how to do on Windows.
+Outline Manager supports Windows, macOS and Linux.
 
-Use this link to download Outline Manager for Windows
+Outline Manager for Windows
 ~~~~
-https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/manager/Outline-Manager.exe
+https://github.com/Jigsaw-Code/outline-releases/blob/master/manager/Outline-Manager.exe
+~~~~
+
+Outline Manager for macOS
+~~~~
+https://github.com/Jigsaw-Code/outline-releases/blob/master/manager/Outline-Manager.dmg
 ~~~~
 
 # Install Outline Server
@@ -73,7 +78,7 @@ https://s3.amazonaws.com/outline-vpn/index.html#/invite/ss//XXXXXXXXXXXXXXXXXXXX
 
 ### Connect to Outline
 
-For now, Outline only support Android, Windows and Chrome OS. Outline for iOS and MacOS is coming soon.
+Outline supports macOS, Windows, iOS, Android and Chrome OS.
 
 **Windows**
 
@@ -94,6 +99,31 @@ https://raw.githubusercontent.com/Jigsaw-Code/outline-releases/master/client/Out
 
 Note: If it shows "key invaild", just try to reconnect several times.
 
+**macOS**
+
+~~~~
+macOS 10.11+
+~~~~
+
+Use this link to download Outline for macOS
+~~~~
+https://itunes.apple.com/us/app/outline-app/id1356178125
+~~~~
+
+Download Outline for macOS from Mac AppStore, and repeat the steps for Windows above.
+
+**iOS**
+
+~~~~
+iOS 9.0+
+~~~~
+
+~~~~
+https://itunes.apple.com/us/app/outline-app/id1356177741?mt=8
+~~~~
+
+Download Outline for iOS from AppStore, and repeat the steps for Windows above.
+
 **Android**
 
 ~~~~
@@ -102,10 +132,10 @@ Android 5.0+
 
 ~~~~
 https://play.google.com/store/apps/details?id=org.outline.android.client
-https://github.com/Jigsaw-Code/outline-client/releases
+https://github.com/Jigsaw-Code/outline-releases/blob/master/client/Outline.apk
 ~~~~
 
-Download Outline for Android from the CH Play or Github (You should choose the version with `Latest release` tag) and repeat the steps for Windows above.
+Download Outline for Android from the CH Play or Github, and repeat the steps for Windows above.
 
 # Setting Outline to work with Proxy SwitchyOmega (Advanced)
 
