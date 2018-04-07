@@ -6,12 +6,12 @@ This guide will show you how to install Outline Server on an Ubuntu 16.04 Server
 
 Outline Manager supports Windows, macOS and Linux.
 
-Outline Manager for Windows
+## Outline Manager for Windows
 ~~~~
 https://github.com/Jigsaw-Code/outline-releases/blob/master/manager/Outline-Manager.exe
 ~~~~
 
-Outline Manager for macOS
+## Outline Manager for macOS
 ~~~~
 https://github.com/Jigsaw-Code/outline-releases/blob/master/manager/Outline-Manager.dmg
 ~~~~
